@@ -973,3 +973,24 @@ font-size:1.9rem;
 }
 
 }
+/* ==========================
+   ANIMATIONS
+========================== */
+
+.fade-section{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:all .9s ease;
+
+}
+
+.fade-section.visible{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
